@@ -564,7 +564,10 @@ if (reversed == null) { reversed = false; }
 		setTimeout(this.play.bind(this), 1500);
 	}
 	this.frame_242 = function() {
+		// PAUSE ANIMATION IN MILLISECONDS //
+		
 		this.stop();
+		setTimeout(this.play.bind(this), 2000);
 	}
 
 	// actions tween:
